@@ -5,8 +5,8 @@ export const portfolioData = {
     email: "shayannaqvi45@gmail.com",
     phone: "+92-3363537913",
     location: "Lahore, Pakistan",
-    linkedin: "https://linkedin.com/in/abdulazizharis",
-    github: "https://github.com", // Add your github link here
+    linkedin: "https://www.linkedin.com/in/shayan-naqvi-25103a331/",
+    github: "https://github.com/shayannaqvi45",
     resumeUrl: "/Shayan_Naqvi_Resume.pdf", // Place your resume PDF in public/ folder
     bio: "Detail-oriented frontend developer with a Bachelors in Computer Science. Eager to apply technical skills through hands-on projects, crafting fluid interfaces and interactive digital experiences."
   },
@@ -63,12 +63,12 @@ export const portfolioData = {
       id: "cynthia-clone",
       number: "01",
       badge: "🔥 Interactive Showcase",
-      title: "Cynthia Ugwu Portfolio Clone",
-      description: "Built a high-fidelity Cynthia Ugwu portfolio clone, replicating modern creative design aesthetics. Integrated smooth GSAP animations and Locomotive Scroll for seamless scrolling and mouse follower effects, delivering a premium, cinematic browsing experience focused heavily on UX.",
+      title: "liquid-glass-portfolio",
+      description: "Built a high-fidelity creative portfolio showcasing fluid motion design. Features custom liquid-glass card structures, smooth drag physics, mouse follower interactions, and advanced layouts tailored for digital assets showcase.",
       techTags: ["HTML", "CSS", "JavaScript", "GSAP", "Locomotive Scroll"],
       links: {
-        github: "https://github.com/shayannaqvi45/Cynthia-Ugwu-Portfolio-Clone-main.git",
-        demo: "https://shayannaqvi45.github.io/Cynthia-Ugwu-Portfolio-Clone-main/"
+        github: "https://github.com/shayannaqvi45/liquid-glass-portfolio.git",
+        demo: "https://shayannaqvi45.github.io/liquid-glass-portfolio/"
       },
       isFlagship: true
     },
@@ -146,9 +146,9 @@ export const portfolioData = {
     videos: [
       {
         id: "v1",
-        title: "Cynthia Ugwu Clone Walkthrough",
-        description: "A quick screen recording showcasing the cursor hover morphing, smooth mouse tracking, and slide transitions of the Cynthia Ugwu Clone.",
-        url: "/videos/cynthia-demo.mp4",
+        title: "liquid-glass-portfolio",
+        description: "A high-fidelity walkthrough of the Liquid Glass Portfolio, demonstrating cursor scaling, spring physics hover controls, and responsive visual layout transitions.",
+        url: "/videos/liquid-glass-portfolio.mp4",
         thumbnail: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
         tags: ["UI Demo", "GSAP Animations"]
       },
