@@ -145,7 +145,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Column: Dynamic Solid Red Form Block */}
           <div className="lg:col-span-8 flex justify-center">
             <motion.div
               initial={{ y: 30, opacity: 0 }}
@@ -156,7 +155,7 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                   <div>
-                    <label className="text-xs font-mono uppercase tracking-widest text-white/75 block mb-2">
+                    <label className="text-xs font-mono font-bold uppercase tracking-widest text-white block mb-2">
                       First Name *
                     </label>
                     <input
@@ -166,11 +165,11 @@ export default function Contact() {
                       onChange={handleChange}
                       placeholder="e.g. Shayan"
                       required
-                      className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/30 font-medium rounded-none"
+                      className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/50 font-bold rounded-none"
                     />
                   </div>
                   <div>
-                    <label className="text-xs font-mono uppercase tracking-widest text-white/75 block mb-2">
+                    <label className="text-xs font-mono font-bold uppercase tracking-widest text-white block mb-2">
                       Last Name
                     </label>
                     <input
@@ -179,13 +178,13 @@ export default function Contact() {
                       value={formData.lastName}
                       onChange={handleChange}
                       placeholder="e.g. Naqvi"
-                      className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/30 font-medium rounded-none"
+                      className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/50 font-bold rounded-none"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="text-xs font-mono uppercase tracking-widest text-white/75 block mb-2">
+                  <label className="text-xs font-mono font-bold uppercase tracking-widest text-white block mb-2">
                     Email Address *
                   </label>
                   <input
@@ -195,12 +194,12 @@ export default function Contact() {
                     onChange={handleChange}
                     placeholder="e.g. shayan@example.com"
                     required
-                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/30 font-medium rounded-none"
+                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/50 font-bold rounded-none"
                   />
                 </div>
 
                 <div>
-                  <label className="text-xs font-mono uppercase tracking-widest text-white/75 block mb-2">
+                  <label className="text-xs font-mono font-bold uppercase tracking-widest text-white block mb-2">
                     Message *
                   </label>
                   <textarea
@@ -210,7 +209,7 @@ export default function Contact() {
                     placeholder="Tell me about your project..."
                     rows={4}
                     required
-                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/30 font-medium resize-none rounded-none"
+                    className="w-full bg-transparent border-b border-white/40 pb-3 text-lg focus:outline-none focus:border-white transition-colors placeholder-white/50 font-bold resize-none rounded-none"
                   />
                 </div>
 
@@ -226,7 +225,7 @@ export default function Contact() {
                   />
                   <label
                     htmlFor="permission"
-                    className="text-xs text-white/90 leading-snug cursor-pointer select-none"
+                    className="text-xs font-bold text-white leading-snug cursor-pointer select-none"
                   >
                     I give permission to contact me at this email address regarding my inquiry.
                   </label>
